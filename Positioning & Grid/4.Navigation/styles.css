@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(238, 238, 238) ;
+    padding: 40px 50px;
+}
+body {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+    grid-template-columns: 700px auto;
+    
+
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+
+header { grid-area: header; }
+main { grid-area: main; }
+aside { grid-area: aside; }
+footer { grid-area: footer; }
+
+
+header {
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    font-family: Georgia, serif ;
+    font-size: 1em/1.2;
+    display: inline-block;
+}
+.navigation {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    
+}
+header ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: green;
+    padding: 20px;
+}
+.aside {
+    position: absolute;
+    display: inline-block;
+    right: 200px;
+    top: 140px;
+}
+section img {
+    float: right;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+#left {
+    width: 300px;
+    
+    border-right: 2px solid lightgray;
+    padding-right: 30px;
+    float: left;
+}
+    
+
+section div img {
+    float: left;
+    margin-right: 20px;
+
+}
+.right-text {
+    font-style: italic;
+    
+}
+#author {
+    position: absolute;
+    left: 650px;
+}
+.right-text {
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 170px;
+}
