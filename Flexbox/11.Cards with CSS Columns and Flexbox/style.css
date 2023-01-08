@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(238, 238, 238);
+    width: 70%;
+    margin: 0px auto;
+}
+
+.masonry {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 300vh; 
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card {
+    width: 30%;
+    background-color: white;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    object-fit: contain;
+}
+
+footer {
+    border-top: 1px solid grey;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
