@@ -1,0 +1,18 @@
+.more {
+    border-color: blueviolet;
+    background-color: blueviolet;
+    color: whitesmoke;
+    padding: 8px 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.more:hover {
+    background-color: #786eff;
+    border-color: #786eff;
+    color: rgb(193, 187, 176);
+    font-size: 20px;
+}
