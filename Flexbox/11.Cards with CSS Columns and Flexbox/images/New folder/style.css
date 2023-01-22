@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(238, 238, 238);
+    width: 70%;
+    margin: 0px auto;
+}
+
+.masonry {
+    max-height: 2500px;
+    
+    columns: 3;
+    
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card {
+    width: 300px;
+    
+    background-color: white;
+    border-radius: 6px;
+    break-inside: avoid;
+    margin-bottom: 10px;
+}
+img {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    object-fit: contain;
+}
+
+footer {
+    border-top: 1px solid grey;
+    padding: 20px;
+}
+section {
+    padding: 20px;
+}

@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.container {
+    display: flex;
+    gap: 1rem;
+    height: 40%;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.first, .third, .fourth {
+    width: 100px;
+}

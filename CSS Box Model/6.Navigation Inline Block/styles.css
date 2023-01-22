@@ -1,0 +1,31 @@
+html {
+    font-family: Helvetica, sans-serif;
+    padding: 30px;
+}
+
+header {
+    border-bottom: 1px solid black;
+    
+}
+
+header h1 {
+    font-family: 'Trebuchet MS', serif;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;  
+}
+
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    
+} 
+
+a {
+    margin: 30px;
+    color: rgb(36, 162, 36);
+    text-decoration: none;
+}
