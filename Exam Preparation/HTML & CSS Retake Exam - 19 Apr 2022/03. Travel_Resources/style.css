@@ -1,0 +1,201 @@
+@import'https://use.fontawesome.com/releases/v6.2.1/css/all.css';
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 20px;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+.upper-nav .upper ul,
+.bottom-nav .bottom ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.navigation a{
+    text-decoration: none;
+    color: #4f5774;
+}
+.upper li,
+.bottom li {
+   text-align: center;
+   padding: 10px 30px;
+}
+.upper li a {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navigation li:hover {
+    background-color: #c09a2f;
+}
+.navigation li a:hover {
+    color: white;
+}
+.upper i {
+    font-size: 32px;
+}
+
+.top .logo {
+    background-color: #c09a2f;
+    padding: 50px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    transform: translate(0%, 20%);
+    z-index: 1;
+}
+.img {
+    background-image: url("./image/slider.jpg");
+    background-position: center;
+    background-size:cover;
+    height: 570px;
+    position: relative;
+}
+
+.img .card {
+    background: rgba(0, 0, 0, 0.5);
+    width: 40%;
+    height: 60%;
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.card button {
+    border: 5px solid white;
+    background-color: transparent;
+    color: #ffa207;
+    padding: 10px 25px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.card button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.main-top {
+    background: rgb(150, 103, 11);
+    background: linear-gradient(
+      90deg,
+      rgba(150, 103, 11, 1) 0%,
+      rgba(208, 172, 60, 1) 100%
+    );
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    padding: 25px 35%;
+}
+.main-top-content {
+    text-align: left;
+    line-height: 2.5rem;
+}
+.main-top-content h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.main-top button {
+    font-size: 1.1em;
+  color: white;
+  background: none;
+  border: 5px solid white;
+  padding: 10px 25px;
+  margin: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.button {
+    text-align: center;
+}
+.main-bottom {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.main-bottom-content {
+    width: 90%;
+    text-align: center;
+    margin-top: 40px;
+    margin: 0 auto;
+    color: #4f5774;
+}
+.main-bottom-content h2 {
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    padding-bottom: 30px;
+}
+
+.main-bottom-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.main-card-img img{
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    border: 2px solid grey;
+    padding: 5px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+.main-card-img p {
+    width: 80%;
+    text-align: center;
+}
+.main-card-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+footer .footer-top {
+    height: 70%;
+    background-color: #c09a2f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    color: white;
+}
+.footer-top button{
+    border: 5px solid white;
+    padding: 10px 25px;
+    margin-right: 25px;;
+    background: none;
+    color: white;
+    font-size: 1.5em;
+}
+.footer-bottom {
+    padding: 25px;
+    text-align: center;
+}
+
+
