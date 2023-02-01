@@ -148,8 +148,9 @@ body {
 }
 
 .main-bottom-cards {
-    display: flex;
-    justify-content: space-around;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     margin-top: 20px;
 }
 .main-card-img img{
@@ -197,5 +198,4 @@ footer .footer-top {
     padding: 25px;
     text-align: center;
 }
-
 
