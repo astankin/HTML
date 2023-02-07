@@ -1,0 +1,21 @@
+/* TODO: Add the responsive styles here */
+@media only screen and (max-width: 600px) {
+    .w3-hide-small {
+        display: none;
+    }
+    #about {
+        display: grid;
+        justify-items: center;
+        width: 100%;
+    }
+    .w3-col.m6.w3-padding-large {
+        width: 100%;
+    }
+    .w3-row.w3-padding-64 {
+        display: grid;
+        align-items: center;
+    }
+    .w3-col.l6.w3-padding-large{
+        width: 100%;
+    }
+}
