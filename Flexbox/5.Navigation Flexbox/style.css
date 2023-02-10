@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather&family=Raleway:wght@300&family=Roboto&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .nav-list {
+    display: flex;
+}
+
+#header .list-item {
+    list-style: none;
+    
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: flex-start;
+
+}
