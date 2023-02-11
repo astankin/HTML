@@ -1,0 +1,21 @@
+body, ul, li {
+    display: flex;
+    
+}
+body {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.gallery ul {
+    justify-content: 'space-between';
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+li {
+    border: 6px solid black;
+    align-items: center;
+    padding: 20px;
+}
