@@ -1,0 +1,147 @@
+@import "https://use.fontawesome.com/releases/v6.3.0/css/all.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+/* Header */
+header {
+  width: 100%;
+  height: 700px;
+  background-image: url(./images/landing-photo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  position: relative;
+}
+.navigation nav ul {
+  display: flex;
+  gap: 30px;
+}
+.navigation li {
+  padding: 5px 20px;
+}
+.button {
+  background-color: #370511;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+.button a {
+  color: #fff;
+}
+.about {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+.about h1 {
+  margin-bottom: 20px;
+}
+.about h3 {
+  margin-bottom: 20px;
+}
+.about .last {
+  margin-bottom: 30px;
+}
+/* Main */
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.main h2 {
+  text-shadow: 2px 2px 2px rgba(206,89,55,0);
+}
+.main-section {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  /* background-color: aquamarine; */
+}
+.card {
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.img-container {
+  width: 100%;
+  height: 250px;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card h3 {
+  margin-bottom: 10px;
+}
+.card p {
+  text-align: left;
+}
+.text {
+  opacity: 0.5;
+}
+.content {
+  padding: 20px;
+  text-align: center;
+}
+.content p {
+  margin-bottom: 20px;
+}
+.content button {
+  padding: 12px 22px;
+  border-radius: 20px;
+  border: 1px solid #370511;
+  background-color: #fff;
+  font-weight: 600;
+}
+/* Footer */
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer {
+    background-color: black;
+    padding: 50px;
+}
+footer section {
+  width: 65%;
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer li {
+    margin-bottom: 20px;
+}
+footer .social {
+    display: flex;
+    justify-content: space-between;
+}
